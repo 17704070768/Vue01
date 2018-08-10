@@ -65,12 +65,14 @@ export default {
 }
 </script>
 
-<style>
-	.mui-icon .mui-badge{
-		margin-top: 0.1rem;
-		border-radius: 50%;
-		font-size: 0.2rem;
-		margin-left: -2rem;
+<style lang="scss" scoped>
+	.mui-icon {
+		.mui-badge{
+			margin-top: 0.1rem;
+			border-radius: 50%;
+			font-size: 0.2rem;
+			margin-left: -2rem;
+		}
 	}
 	.mui-bar-tab .mui-tab-item .mui-icon{
 		width: 100%;
@@ -115,6 +117,10 @@ export default {
 		transition: all 0.5s ease
 	}
 </style>
+
+
+
+
 
 
 
